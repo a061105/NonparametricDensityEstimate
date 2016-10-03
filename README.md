@@ -2,7 +2,7 @@ This module has 3 components:
 
 <ol>
 
-<li> Objective Approximation Module: 
+<li> <b>Objective Approximation Module:</b>
 
 <ul>
 <li>goal: sampling uniformly from data domain to construct a surrogate objective.
@@ -18,7 +18,7 @@ This module has 3 components:
 
 </li>
 
-<li> Random Feature Module:
+<li> <br>Random Feature Module:</b>
 
 <ul>
 <li> goal: generate features \phi(x) for each sample x. </li>
@@ -32,7 +32,7 @@ This module has 3 components:
 
 </li>
 
-<li> Density Estimation Module:
+<li> <b>Density Estimation Module:</b>
 
 <ul>	
 <li>goal: estimate the function f(x)=<w, \phi(x)> by solving: <br>
@@ -53,7 +53,7 @@ output: model file (w)
 
 </li>
 
-<li> (Log) Likelihood Estimation Module:
+<li> <b>(Log) Likelihood Estimation Module:</b>
 
 <ul>
 <li>
