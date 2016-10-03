@@ -10,8 +10,11 @@ This module has 4 components:
 <li>goal: sampling uniformly from data domain to construct a surrogate objective.
 </li>
 
-<li>input:  (i)  data file (for getting dim and the range of each dim). <br>
-	    (ii) m: number of samples for the contrastive data set.
+<li>input:  
+<pre>
+(i)  data file (for getting dim and the range of each dim). 
+(ii) m: number of samples for the contrastive data set.
+</pre>
 </li>
 
 <li>output: the "contrastive" data file that follows uniform distribution over the L-infty ball.
@@ -27,8 +30,11 @@ This module has 4 components:
 
 <li> input: raw data file and its contrastive data file. </li>
 
-<li> output: (i)  random feature files for data and contrastive data.<br>
-	     (ii) number of random features (D). 
+<li> output: 
+<pre>
+(i)  random feature files for data and contrastive data.
+(ii) number of random features (D). 
+</pre>
 </li>
 </ul>
 
@@ -44,9 +50,12 @@ This module has 4 components:
 </pre>
 </li>
 <li>
-input:  (i)  data file. <br>
-	(ii) contrastive data file. <br>
-	(iii) C.
+input:  
+<pre>
+(i)  data file.
+(ii) contrastive data file.
+(iii) C.
+</pre>
 <li>
 output: model file (w)
 </li>
@@ -58,9 +67,12 @@ output: model file (w)
 
 <ul>
 <li>
-input:	(i)   a (test) data file <br>
-	(ii)  a (test) contrastive data file. <br>
-	(iii) a model file.
+input:	
+<pre>
+(i)   a (test) data file.
+(ii)  a (test) contrastive data file.
+(iii) a model file.
+</pre>
 </li>
 <li>
 output:	average log likelihood.
