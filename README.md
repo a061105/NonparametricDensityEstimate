@@ -48,7 +48,6 @@ input:  (i)  data file. <br>
 	(ii) contrastive data file. <br>
 	(iii) C.
 <li>
-<li>
 output: model file (w)
 </li>
 </ul>
