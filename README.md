@@ -1,4 +1,6 @@
-This module has 3 components:
+<h3>Nonparametric Density Estimation via Random Feature</h3>
+
+This module has 4 components:
 
 <ol>
 
