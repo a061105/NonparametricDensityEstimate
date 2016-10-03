@@ -20,7 +20,7 @@ This module has 4 components:
 
 </li>
 
-<li> <br>Random Feature Module:</b>
+<li> <b>Random Feature Module:</b>
 
 <ul>
 <li> goal: generate features \phi(x) for each sample x. </li>
