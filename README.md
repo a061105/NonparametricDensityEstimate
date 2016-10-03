@@ -1,15 +1,20 @@
 This module has 3 components:
 
-<ul>
+<ol>
 
 <li> Objective Approximation Module: 
 
-goal: sampling uniformly from data domain to construct a surrogate objective.
+<ul>
+<li>goal: sampling uniformly from data domain to construct a surrogate objective.
+</li>
 
-input:  (i)  data file (for getting dim and the range of each dim).
+<li>input:  (i)  data file (for getting dim and the range of each dim).
 	(ii) m: number of samples for the contrastive data set.
+</li>
 
-output: the "contrastive" data file that follows uniform distribution over the L-infty ball.
+<li>output: the "contrastive" data file that follows uniform distribution over the L-infty ball.
+</li>
+</ul>
 
 </li>
 
@@ -49,4 +54,4 @@ output:	average log likelihood.
 
 </li>
 
-</ul>
+</ol>
